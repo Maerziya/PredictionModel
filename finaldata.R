@@ -2,7 +2,7 @@ library(haven)
 library(dplyr)
 
 # Read data.
-path = file.path("C:/Users/surface/Documents/RESEARCH/R/Long format met NIHSS sens en neglect.sav")
+path = file.path(Long format met NIHSS sens en neglect.sav")
 data = read_sav(path)
 data <- data[order(data$Number, data$Days),]
 
